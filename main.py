@@ -22,4 +22,4 @@ def mostrarLibros(id: int, precio: int):
 
 @app.post("/libros")
 def insertar_libros(Libro: Libro):
-    return {"message": f"libro {Libro.titulo} insertado"}
+    return {"message": f"libro {Libro.titulo} insertadoooo"}
